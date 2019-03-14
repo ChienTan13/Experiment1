@@ -1,0 +1,19 @@
+//This is the answer to Problem #2
+
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	double mass, density; 
+	cout << "Enter your mass in grams " << endl;
+	cin >> mass;
+	cout << "Enter your density" << endl;
+	cin >> density;
+	cout << " volume: " << mass / density << endl;
+	_getch();
+
+ return 0;
+} 
